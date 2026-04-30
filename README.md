@@ -103,7 +103,7 @@ network:
         addresses: [8.8.8.8]
 ```
 
----
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/ebe901e699c2c3ffc9dbbdb2d0972a86668022d5/img/pas1.png)
 
 ## Enrutamiento y NAT
 
