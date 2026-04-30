@@ -37,7 +37,7 @@ Se configuró la infraestructura utilizando **VirtualBox**, asegurando que la "R
 | **PC-Ventas** | Ventas | 30 | 192.168.30.0/27 | 192.168.30.1 |
 | **PC-Contabilidad**| Contabilidad | 40 | 192.168.40.0/29 | 192.168.40.1 |
 
-IMAGEN EN PACKET TRACER
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/a1e96cd84e467f062984cf6080d68d7591424e5a/img/topo.png)
 
 # Sección 2:
 
