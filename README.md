@@ -104,7 +104,8 @@ network:
 ```
 
 ![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/ebe901e699c2c3ffc9dbbdb2d0972a86668022d5/img/pas1.png)
-
+En la imegen se puede observar que con el comando respectivo se realizo la configuracion y ademas en la imagen inferior se puede ver como se verifico dicha configuracion:
+![imagen alt]()
 ## Enrutamiento y NAT
 
 #### Habilitar reenvío de paquetes
