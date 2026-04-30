@@ -9,7 +9,7 @@
 
 **Docente:** Ing. Marcelo Quispe Ortega
 
-##**Introducción:**
+**##Introducción:**
 
 El presente informe documenta la implementación de una infraestructura de red empresarial basada en VLANs (Virtual Local Area Networks) utilizando máquinas virtuales en VirtualBox. A través de este laboratorio se configuró un router con Ubuntu Server 24.04 como núcleo de la red, encargado del enrutamiento inter-VLAN, el acceso a internet mediante NAT y el control de tráfico con UFW e iptables.
 El objetivo principal fue demostrar cómo la segmentación de red mediante VLANs permite aplicar políticas de seguridad granulares entre departamentos, restringiendo o permitiendo el tráfico según los requisitos organizacionales, y verificar su correcto funcionamiento mediante pruebas de conectividad entre todas las VMs.
@@ -105,7 +105,7 @@ network:
 
 ![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/ebe901e699c2c3ffc9dbbdb2d0972a86668022d5/img/pas1.png)
 En la imegen se puede observar que con el comando respectivo se realizo la configuracion y ademas en la imagen inferior se puede ver como se verifico dicha configuracion:
-![imagen alt]()
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/d134c2e751ff1216ea95bc1f3e24bbfda9bdef85/img/paso%201-v.png)
 ## Enrutamiento y NAT
 
 #### Habilitar reenvío de paquetes
