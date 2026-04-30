@@ -123,7 +123,9 @@ Aplicar cambios:
 sudo sysctl -p
 ```
 
----
+Se habilita y verifica el reenvio de paquetes 
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/176f262026ec9a0aebc7b3fb71f36c72baed4dd8/img/1.3.png)
+
 
 ## Paso 2: Configuración VM Contabilidad (Alpine)
 
@@ -268,6 +270,8 @@ COMMIT
 ---
 
 ## Pruebas finales
+Se verifica que los permisos esten respecto al informe:
+![imagen alt]()
 
 Desde VM Ventas:
 ```bash
@@ -277,5 +281,7 @@ ssh usuario@192.168.40.2
 Verificar:
 - ❌ Acceso a Contabilidad (bloqueado)
 - ✅ Acceso a DMZ (permitido)
+- No se puede acceder como se tenia planidficado:
+![imagen alt]
 
 **##Conclusion:**
