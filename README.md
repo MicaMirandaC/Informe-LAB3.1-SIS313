@@ -161,8 +161,7 @@ iface eth0 inet manual
 ping 192.168.40.1
 ping google.com
 ```
-
----
+![imagen alt]()
 
 ## Paso 3: Configuración VM Ventas (Alpine)
 
@@ -271,7 +270,7 @@ COMMIT
 
 ## Pruebas finales
 Se verifica que los permisos esten respecto al informe:
-![imagen alt]()
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/72953f744076ae298c134dfada444d9abd29423d/img/pa4.png)
 
 Desde VM Ventas:
 ```bash
