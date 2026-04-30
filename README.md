@@ -9,7 +9,7 @@
 
 **Docente:** Ing. Marcelo Quispe Ortega
 
-**##Introducción:**
+## Introduccion
 
 El presente informe documenta la implementación de una infraestructura de red empresarial basada en VLANs (Virtual Local Area Networks) utilizando máquinas virtuales en VirtualBox. A través de este laboratorio se configuró un router con Ubuntu Server 24.04 como núcleo de la red, encargado del enrutamiento inter-VLAN, el acceso a internet mediante NAT y el control de tráfico con UFW e iptables.
 El objetivo principal fue demostrar cómo la segmentación de red mediante VLANs permite aplicar políticas de seguridad granulares entre departamentos, restringiendo o permitiendo el tráfico según los requisitos organizacionales, y verificar su correcto funcionamiento mediante pruebas de conectividad entre todas las VMs.
@@ -161,7 +161,8 @@ iface eth0 inet manual
 ping 192.168.40.1
 ping google.com
 ```
-![imagen alt]()
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/6b6e8526882fd88e6069e5a9d3d3a56e7a653956/img/cont.png)
+La configuracion si dio correctamente como se puede observar en la imgen de la parte superior
 
 ## Paso 3: Configuración VM Ventas (Alpine)
 
@@ -191,13 +192,6 @@ iface eth0 inet manual
     up ip link set $IFACE up
     down ip link set $IFACE down
 ```
-
-#### Pruebas
-```bash
-ping 192.168.30.1
-```
-
----
 
 ## Paso 4: Configuración de UFW en Router
 
@@ -283,4 +277,5 @@ Verificar:
 - No se puede acceder como se tenia planidficado:
 ![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/46e0f46d0f8fc9babcdce20d6c21a3eaf6b917b6/img/4.2.png)
 
-**##Conclusion:**
+## Conclusion:
+En conclusión, el desarrollo de este laboratorio permitió validar con éxito la implementación de redes virtuales mediante el uso de VLANs y el etiquetado 802.1Q en entornos Linux. La configuración de subinterfaces en el router Ubuntu y la correcta asignación de gateways en los clientes Alpine demostraron que es posible segmentar el tráfico de manera eficiente. Asimismo, la aplicación de reglas de enrutamiento mediante UFW fue fundamental para establecer políticas de seguridad granulares, logrando que cada departamento (TI, Ventas y Contabilidad) tuviera acceso únicamente a los recursos autorizados, garantizando así la integridad y el control del tráfico dentro de la infraestructura de red.
