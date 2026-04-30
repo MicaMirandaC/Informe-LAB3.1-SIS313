@@ -282,6 +282,6 @@ Verificar:
 - ❌ Acceso a Contabilidad (bloqueado)
 - ✅ Acceso a DMZ (permitido)
 - No se puede acceder como se tenia planidficado:
-![imagen alt]
+![imagen alt](https://github.com/MicaMirandaC/Informe-LAB3.1-SIS313/blob/46e0f46d0f8fc9babcdce20d6c21a3eaf6b917b6/img/4.2.png)
 
 **##Conclusion:**
